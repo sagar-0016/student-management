@@ -126,7 +126,7 @@ def logout_view(request):
 
 
 def admin_dashboard(request):
-    return render(request, "authentication/tmp_admin_dashboard.htm")
+    return render(request, "authentication/tmp_admin_dashboard.html")
 
 
 @csrf_exempt
